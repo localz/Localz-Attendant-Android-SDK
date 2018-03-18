@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.localz.sdk.attendanttestapp.CreateOrderActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/orderNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="test_order_001"
+            android:tooltipText="Order Number" />
+
+        <EditText
+            android:id="@+id/subProjectId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="spi"
+            android:tooltipText="Sub Project Id" />
+
+        <EditText
+            android:id="@+id/orderAmount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="99.93"
+            android:tooltipText="Order Amount" />
+
+        <EditText
+            android:id="@+id/deliveryName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Mr Test User"
+            android:tooltipText="Delivery Name" />
+
+        <EditText
+            android:id="@+id/deliveryEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="delivery@email.com"
+            android:tooltipText="Delivery Email" />
+
+        <EditText
+            android:id="@+id/deliveryPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="+61400000000"
+            android:tooltipText="Delivery Phone" />
+
+        <EditText
+            android:id="@+id/address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="412 Collins St, Melbourne, VIC"
+            android:tooltipText="Address" />
+
+        <EditText
+            android:id="@+id/shopperId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="shopper_001"
+            android:tooltipText="Shopper Id" />
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Submit" />
+
+        <!--
+          "orderDate": "2017-11-23T16:13:31.000Z",
+          "totalItems": 0,
+          "pickupStart": "2017-11-23T08:30:00.000Z",
+          "pickupEnd": "2017-11-23T17:30:00.000Z",
+          "pickupLocation": "Entrance",
+          "orderAmount": 99.17,
+          "currency": "AUD",
+          "deliveryName": "Mr Test User",
+          "deliveryEmail": "testuser@localz.co",
+          "deliveryPhone": "+61401034380",
+          "specific": {
+            "address": "10 Collins St., Melbourne, 3000, VIC, Australia"
+          }
+
+
+        -->
+
+    </LinearLayout>
+
+</ScrollView>
