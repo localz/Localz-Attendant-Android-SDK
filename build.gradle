@@ -18,7 +18,6 @@ allprojects {
         google()
         jcenter()
         maven { url "http://localz.github.io/mvn-repo" }
-        mavenLocal()
     }
 }
 
