@@ -32,7 +32,7 @@ public class OrderDetailsActivity extends AppCompatActivity {
         ((Button) findViewById(R.id.complete)).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                LocalzAttendantSDK.getInstance().completeOrder(OrderDetailsActivity.this, OrderId.forOrder(order), "signature", "notes", new Callback<Void>() {
+                LocalzAttendantSDK.getInstance().completeOrder(OrderDetailsActivity.this, OrderId.forOrder(order), "signature", "notes", null, new Callback<Void>() {
                     @Override
                     public void onSuccess(Void result) {
                         Log.d(TAG, "completeOrder onSuccess");

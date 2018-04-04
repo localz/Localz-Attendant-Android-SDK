@@ -10,9 +10,9 @@
         android:supportsRtl="false"
         android:theme="@style/AppTheme">
 
-        <receiver android:name="com.localz.sdk.attendanttestapp.OrderStatusChangeReceiverImpl" android:exported="false">
+        <receiver android:name="com.localz.sdk.attendanttestapp.StateChangeReceiverImpl" android:exported="false">
             <intent-filter>
-                <action android:name="com.localz.sdk.attendant.ORDER_STATUS_CHANGE"/>
+                <action android:name="com.localz.sdk.attendant.STATE_CHANGE"/>
             </intent-filter>
         </receiver>
 
